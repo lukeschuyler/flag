@@ -1,12 +1,12 @@
-#!/usr/bin/env/node
+#!/usr/bin/env node
 
 const chalk = require('chalk')
 
 const { bgWhite } = chalk.styles
 const { bgRed } = chalk.styles
 
-const shortWhite = () => { console.log(chalk.white.bgBlue(' * * * * * * * ') + bgWhite.open + `                                     ` + bgWhite.close) }
-const shortRed = () => { console.log(chalk.white.bgBlue('  * * * * * *  ') + bgRed.open + `                                     ` + bgRed.close) }
+const shortWhite = () => { console.log(chalk.white.bgBlue(' ✮ ✮ ✮ ✮ ✮ ✮ ✮ ') + bgWhite.open + `                                     ` + bgWhite.close) }
+const shortRed = () => { console.log(chalk.white.bgBlue('  ✮ ✮ ✮ ✮ ✮ ✮  ') + bgRed.open + `                                     ` + bgRed.close) }
 const longWhite = () => { console.log(bgWhite.open + `                                                    ` + bgWhite.close) }
 const longRed = () => { console.log(bgRed.open + `                                                    ` + bgRed.close) }
 
